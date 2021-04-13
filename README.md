@@ -3,6 +3,8 @@
 
 A simple CI/CD pipeline built with Tekton that clones a Git repo, builds a Dockerfile and uploads the resulting image to a registry.
 
+![tutorial-pipeline-run](./docs/images/tutorial-pipeline-run.PNG)
+
 
 ## Installation 
 
