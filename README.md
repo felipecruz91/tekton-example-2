@@ -44,14 +44,14 @@ cd tekton-example-2
 
 To run this project in a corporate environment, you will need to configure the proxy settings in two places:
 
-- [skaffold-git.yaml](skaffold-git,ayml)
+- [./pipelines-resources/skaffold-git.yaml](skaffold-git.yaml)
 
 ```yaml
 - name: httpsProxy
   value: "<YOUR_CORPORATE_PROXY>"
 ```
 
-- [build-docker-image-from-git-source.yaml](build-docker-image-from-git-source.yaml)
+- [./pipelines-resources/build-docker-image-from-git-source.yaml](build-docker-image-from-git-source.yaml)
 
 ```yaml
   - name: https_proxy
